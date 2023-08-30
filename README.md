@@ -1,6 +1,9 @@
 ## Next_SAML_Decoder
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) designed to decode SAML Responses and return the result in XML format. Security Assertion Markup Language (SAML) is a open standard for Extensible Markup Language (XML) to exchange authentication and authorization information between between an identity provider and a service provider.
 
+## Prerequisites
+npm install @headlessui/react, @heroicons/react, classnames, moment
+
 ## Getting Started
 
 First, run the development server:
