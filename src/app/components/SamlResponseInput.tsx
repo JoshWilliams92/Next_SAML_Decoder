@@ -6,7 +6,7 @@ interface SamlInputProps {
     onDecodeClick: () => void;
   }
 
-export default function SamlInput({onInputChange, onDecodeClick}: SamlInputProps) {
+export default function SamlResponseInput({onInputChange, onDecodeClick}: SamlInputProps) {
     const [inputValue, setInputValue] = useState<string>('');
 
     const handleInputChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
