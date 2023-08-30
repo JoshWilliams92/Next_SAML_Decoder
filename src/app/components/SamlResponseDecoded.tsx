@@ -43,7 +43,7 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function XmlDefaultInput({inputData}: XmlDefaultProps) {
+export default function SamlResponseDecoded({inputData}: XmlDefaultProps) {
     const [decodedInputValue, setDecodedInputValue] = useState<string | null>(null);
     const [isValidResponse, setIsValidResponse] = useState(false);
 
